@@ -9,7 +9,7 @@ ETrade is a Java-based web application that allows users to buy, sell, and chat 
 ##  Project Structure
 
 
-<img width="262" height="192" alt="image" src="https://github.com/user-attachments/assets/369dac85-ea02-423a-ad63-64311e6872b7" />
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/369dac85-ea02-423a-ad63-64311e6872b7" />
 
 
 ##  Key Features
