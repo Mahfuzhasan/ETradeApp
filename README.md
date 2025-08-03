@@ -62,10 +62,14 @@ ETrade is a Java-based web application that allows users to buy, sell, and chat 
 3. Configure DB connection in DAO classes
 4. Build and deploy with Maven
 5. Run the project in a servlet container (e.g., Tomcat)
+6. Open in browser:http://localhost:8080/views/login.jsp
 
 ###  Docker Deployment (Recommended)
 
 
 docker-compose up --build
+
+Once the containers are running, open:
+http://localhost:8080/views/login.jsp
 
 
