@@ -11,25 +11,24 @@ ETrade is a Java-based web application that allows users to buy, sell, and chat 
 
 ETrade-main/
 │
-├── .github/workflows/ci.yml         # GitHub Actions CI pipeline
-├── Dockerfile, docker-compose.yml   # Docker-based environment setup
-├── pom.xml                          # Maven project descriptor
+├── .github/workflows/ci.yml # GitHub Actions CI pipeline
+├── Dockerfile, docker-compose.yml # Docker-based environment setup
+├── pom.xml # Maven project descriptor
 │
 ├── src/
-│   └── main/
-│       ├── java/com/etrade/
-│       │   ├── model/               # Domain models (User, Item, Chat, etc.)
-│       │   ├── dao/                 # DAO layer for DB access
-│       │   ├── service/             # Business logic
-│       │   ├── servlet/             # Java Servlets (controller layer)
-│       │   ├── websocket/           # WebSocket chat
-│       │   └── util/                # Utility classes (e.g., SessionManager)
-│       │
-│       └── webapp/
-│           ├── css/                 # Styling files
-│           ├── views/               # JSP files
-│           └── WEB-INF/web.xml      # Deployment descriptor
-
+│ └── main/
+│ ├── java/com/etrade/
+│ │ ├── model/ # Domain models (User, Item, Chat, etc.)
+│ │ ├── dao/ # DAO layer for DB access
+│ │ ├── service/ # Business logic
+│ │ ├── servlet/ # Java Servlets (controller layer)
+│ │ ├── websocket/ # WebSocket chat
+│ │ └── util/ # Utility classes (e.g., SessionManager)
+│ │
+│ └── webapp/
+│ ├── css/ # Styling files
+│ ├── views/ # JSP files
+│ └── WEB-INF/web.xml # Deployment descriptor
 
 ##  Key Features
 
