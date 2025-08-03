@@ -1,0 +1,44 @@
+# --------------------------
+# Version Control
+# --------------------------
+.git
+.gitignore
+
+# --------------------------
+# Build Output
+# --------------------------
+target/
+build/
+*.war
+*.jar
+*.class
+
+# --------------------------
+# IDE Files
+# --------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+*.log
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# --------------------------
+# OS & Cloud Junk Files
+# --------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive & Sync Artifacts
+**/.*.tmp
+**/~*
+**/*.lnk
+**/OneDrive*
